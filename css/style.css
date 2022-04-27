@@ -26,14 +26,15 @@ margin: 0;
 
 .rowlogo{
    margin-top: 10px;
+   margin-bottom: 10px;
 }
 
 .rowlogo .logo{
-height:60px;
+1height:50px;
 
 }
 .rowlogo	.logo img{
-	   width: 100%;
+	   width: 80%;
 	   
 	}
 .addr{
@@ -59,7 +60,7 @@ height:60px;
 
 .butzapis{
   font-size: 18px;
-font-family: "BM-Plex-Sans-Medium";
+font-family: "IBM-Plex-Sans-Medium";
 color: #39aae3;
 border:2px solid #39bbe3;
 border-radius:20px;
@@ -80,8 +81,12 @@ font-size: 14px;
 font-family: "Rubik-Regular";
 color: #39aae3;
 }
-.rowlogo.telicon{
-   margin-left:5px;
+.rowlogo .telefon{
+	padding:0;
+	margin:0;
+}
+.rowlogo .telicon{
+   margin-left:10px;
 }
 
 
@@ -181,16 +186,18 @@ color: #39aae3;
 }
 
 .container_w2{
-	background: -webkit-linear-gradient(left, #b5b6b5 10%, #f0f0f0 95%);
+	
  }
 .container_w3 .body-inner{
-	background-image: url("../images/uslugi/ufon.png");'
-	background-position:60% 50%;
-	background-position: 100% 100%;
-	background-size: cover;
+	background-image: url("../images/uslugi/ufon.png");
+	background-position: 25% 75%;
+	background-size: 80%;
+	background-repeat: no-repeat;
+	
 }
 .container_w3{
 	background: black;
+	
  }
  .container_w3 .wrap{
 	margin:20px 12% 40px 12%;
@@ -246,14 +253,14 @@ height:100%;
 
 .container_w3  .title{
 	color:#fff;
-	 font-family: "Rubik-Regular";
+	font-family: "Rubik-Regular";
 }
-.container_w3  .title h1{
+.container_w3  .title .text1{
 	font-size:2vw;
 	padding:5% 0 3% 0;
-	padding1:10px 0 10px 0;
+	
 }
-.container_w3  .title p{
+.container_w3  .title .text2{
 	font-size:1.1vw;
 	padding:0 0 3% 0;
 }
@@ -268,13 +275,13 @@ height:100%;
 	  padding: 20px 0;}
 	  
     
-	.info-block .title h1 {1background: #ccc;
+	.info-block .title .text1 {1background: #ccc;
 	text-align:center;	
 	  font-family: "Rubik-Regular";
 	  font-size: 30px;
 	  
      }	
-	 .info-block2 .title h1 {1background: #ccc;
+	 .info-block2 .title .text1 {1background: #ccc;
 	text-align:center;	
 	  font-family: "Rubik-Regular";
 	  font-size: 30px;
@@ -287,32 +294,9 @@ height:100%;
      }	 
 	
 	
-	.owl-nav {
-    position: absolute;
-    top: 35%;
-    width: 100%;
-    text-align: left;
-    font-size: 50px;
-    color: #00159c; }
-		 .owl-nav img{
-		width:70%;
-	}
-    .owl-nav .owl-prev {
-      position: relative;
-      left: -50px;
-      background: none; }
-    .owl-nav .owl-next {
-      position: relative;
-      float: right;
-      right: -50px;
-      background: none; }
-    .owl-nav .owl-stage-outer {
-      position: relative;
-      z-index: 1; }
 	
 	
- .carouselspec1 .item{	
- border: 1px solid black;}
+ .carouselspec1 .item{ box-shadow: 0px 0px 6px 1px rgba(34, 60, 80, 0.1) inset; }
  .carouselspec1 .item_wrap{
 	  display:flex;
 	  flex-wrap: wrap;
@@ -322,18 +306,27 @@ height:100%;
  .carouselspec1	.text_wrap{
 	 width:60%;
 	 text-align:left;
-	 padding:2%;
+	 margin:2%;
 	}
- .carouselspec1	.text_wrap h1{
-	   font-family: "BM-Plex-Sans-Medium";
-	   font-size:26px;
-	   padding-bottom:5px;
-	}
- .carouselspec1	.text_wrap h5{
-	   font-family: "BM-Plex-Sans-Medium";
+ .carouselspec1	.text_wrap .fam{
+	   font-family: "IBM-Plex-Sans-Medium";
 	   font-size:16px;
-	   padding-bottom:5px;
+	   height:4em;
+	   color:#39aae3;
 	}
+ .carouselspec1	.text_wrap .sved{
+	   font-family: "IBM-Plex-Sans-Medium";
+	   font-size:16px;
+	   
+	   height:4em;
+	   color:#1e2328;
+	}
+	.carouselspec1 .item-but{
+		 -webkit-transform: scale(0.76);
+		 1height:7em;
+	 }
+	
+	
  .carouselspec1	 .image_wrap  {
 	    padding:2%;
 	    width:40%;
@@ -347,17 +340,13 @@ height:100%;
         width: 100%;
         height: 100%;
 	}
-	 .carouselspec1 .item-but{
-		 -webkit-transform: scale(0.76);
-	 }
-	
+	 
 	
 	.info-block2 .sertif{
 		padding:40px 0;
 		background:#fff;
 	}
-	 .carouselsertif2 .item{	
- border: 1px solid black;}
+	 .carouselsertif2 .item{ box-shadow: 0px 0px 6px 1px rgba(34, 60, 80, 0.1) inset;  }
  .carouselsertif2	 .image_wrap  {
 	    padding:0;
 	    width:100%;
@@ -381,6 +370,7 @@ height:100%;
 	align-items:center;
 	font-family: "Rubik-Regular";
 	font-size: 30px;
+	margin-bottom:10px;
 	} 
 	.info-block .otzyvy .title img{
 		padding:12px 0 0 10px;
@@ -442,11 +432,14 @@ height:100%;
   /*background: -webkit-linear-gradient(left, #251535 40%, #00A9FF 55%);
   background: -webkit-linear-gradient(left, #251535 40%, #0072B6 55%);*/
   background: #251535;
+    background-image: url("../images/vybiraju/back2.png");
+	background-position: center;
+   background-size: cover;
+   1background-repeat:no-repeat;
   }
   .reclama-block .container{
-	  background-image: url("../images/vybiraju/back.png");
-   background-position: center;
-   background-size: cover;
+	
+   
   }
   .reclama-block .container .bwrap{1background: #ccf;
 	  margin:0 12% 0 12%;
@@ -458,11 +451,12 @@ height:100%;
     text-align: left;
     margin-bottom: 40px;
     color: #fff; }
-	 .reclama-block .title h1 {
+	 .reclama-block .title .text1 {
 	  font-family: "Rubik-Regular";
 	  font-size: 30px;
+	  margin-bottom:20px;
      }	 
-	.reclama-block .title h5 {
+	.reclama-block .title .text2 {
 	  font-family: "IBM-Plex-Sans-Regular";
 	  font-size: 16px;
      }
@@ -478,6 +472,7 @@ height:100%;
 			opacity: 0;
 		}
 		.reclama-block .items .item .wrap {
+			border-radius:5px;
 			background: #fff;
 			height:100%;
 			margin-right: 5px;
@@ -501,12 +496,12 @@ height:100%;
       /*.reclama-block .items .item .wrap {
         padding: 0 20px; }*/
 		
-.reclama-block .item .info h1 {
+.reclama-block .item .info .text1 {
 	  font-family: "Rubik-Regular";
 	  font-size: 24px;
 	  margin-bottom:10px;
      }	 
-	.reclama-block .item .info h5 {
+	.reclama-block .item .info .text2 {
 	  font-family: "IBM-Plex-Sans-Regular";
 	  font-size: 16px;
      }
@@ -525,11 +520,11 @@ height:100%;
 	  flex-wrap:wrap;
   }
 
-    .addr-block h1{font-weight: bold;
+    .addr-block .text1{font-weight: bold;
         font-size:18px;}
-    .addr-block h2{
+    .addr-block .text2{
         font-size:16px;}
-    .addr-block h3{
+    .addr-block .text3{
 		color:#39aae3;
         font-size:16px;}
 
@@ -553,12 +548,12 @@ footer .logo2wrap{
 	align-items: start;
 	margin-bottom:10px;
 }
-footer h2{
+footer .text2{
 		font-size: 12px;
-		font-family: "BM-Plex-Sans-Medium";
+		font-family: "IBM-Plex-Sans-Medium";
 		color: #fff;
 	}  	
-footer .st2 h2{
+footer .st2 .text2{
 		margin-bottom:5px;
 }
 footer a {
@@ -678,10 +673,10 @@ footer a:hover {
  .carousel-caption {
 	
 	background-color:rgba(57, 170, 227, 0.749);
-    width:40%;
-    height:55%;
+    width:35%;
+    height:48%;
     
-    left:13% !important;
+    left:16% !important;
     top:35% !important;
 	font-size:1vw;
 	color:#fff;
@@ -690,25 +685,34 @@ footer a:hover {
    
 	}
 	.carousel-caption div{
-	  margin-left:7%;
+	 margin-left:5%;
 	}
-	.carousel-caption h1 {
+	.carousel-caption .text-wrap {
+		text-align:left;
+		1height:250px;
+		height:70%;
+	}
+	.carousel-caption .text1 {
 		
-		font-family: "Rubik-Regular";
-	  font-size:2vw;
+	  font-family: "Rubik-Regular";
+	  font-size:2.5vw;
+	  1height:120px;
+	  height:50%;
 	}
-	.carousel-caption h5 {
-		font-family: "BM-Plex-Sans-Medium";
-	  margin-top:15px;
-	  margin-bottom:20px;
+	.carousel-caption .text2 {
+	  font-family: "IBM-Plex-Sans-Medium";
 	  font-size:1.2vw;
+	  1height:120px;
+	  height:50%;
+	  
 	}
 	.butcar{
 		font-size: 1.2vw;
-		font-family: "BM-Plex-Sans-Medium";
+		font-family: "IBM-Plex-Sans-Medium";
 		color: #39aae3;
 		border:2px solid #39bbe3;
 		border-radius:20px;
+		
 	}  
 /*
 .carousel-caption {
